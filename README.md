@@ -1,5 +1,4 @@
-# 🚀 AutoSetu Backend API
-
+# 🚀 AutoSetu
 AutoSetu is a backend automation API that connects **Google Sheets → MongoDB → WhatsApp Notifications**.
 
 Whenever a new row is added in a Google Sheet, AutoSetu automatically:
