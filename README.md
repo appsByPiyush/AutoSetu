@@ -4,7 +4,7 @@ AutoSetu is a backend automation API that connects **Google Sheets → MongoDB �
 
 Whenever a new row is added in a Google Sheet, AutoSetu automatically:
 
-✅ Receives the row data via API  
+✅ Row is entered in google sheet, data shared via API  
 ✅ Stores the entry securely in MongoDB  
 ✅ Sends an instant WhatsApp message to the Sheet owner with the submitted details  
 
@@ -25,9 +25,8 @@ Whenever a new row is added in a Google Sheet, AutoSetu automatically:
 
 - **Backend:** Node.js / Express  
 - **Database:** MongoDB  
-- **Messaging:** Twilio WhatsApp API  
-- **Integration:** Google Sheets Webhook / Apps Script Trigger  
-- **Deployment Ready:** Docker + Cloud Support  
+- **Messaging:** Facebook App 
+- **Integration:** Google Sheets Webhook / Apps Script Trigger   
 
 ---
 
@@ -59,9 +58,9 @@ Whenever a new row is added in a Google Sheet, AutoSetu automatically:
   "ownerPhone": "+91XXXXXXXXXX",
   "entry": {
     "name": "Rahul Sharma",
-    "amount": 500,
-    "category": "Payment Received",
-    "date": "2026-02-05"
+    "sex": "Male",
+    "age": 28,
+    "location": "India"
   }
 }
 ```
@@ -79,7 +78,7 @@ Whenever a new row is added in a Google Sheet, AutoSetu automatically:
 ✅ New Entry Added in Your Sheet
 
 Name: Rahul Sharma  
-Amount: ₹500  
-Category: Payment Received  
-Date: 05-Feb-2026  
+Sex: Male
+Age: 28 
+Location: India 
 ```
