@@ -75,11 +75,11 @@ Whenever a new row is added in a Google Sheet, AutoSetu automatically:
 }
 ```
 ### 📲 WhatsApp Notification Example
-
+```
 ✅ New Entry Added in Your Sheet
 
 Name: Rahul Sharma  
 Amount: ₹500  
 Category: Payment Received  
 Date: 05-Feb-2026  
-
+```
