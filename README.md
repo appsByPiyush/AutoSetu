@@ -66,20 +66,6 @@ Whenever a new row is added in a Google Sheet, AutoSetu automatically:
 }
 ```
 
-### 🧾 Request Body Example
-
-```json
-{
-  "sheetId": "xyz123",
-  "ownerPhone": "+91XXXXXXXXXX",
-  "entry": {
-    "name": "Rahul Sharma",
-    "amount": 500,
-    "category": "Payment Received",
-    "date": "2026-02-05"
-  }
-}
-```
 ### ✅ Response Example
 
 ```json
@@ -88,3 +74,12 @@ Whenever a new row is added in a Google Sheet, AutoSetu automatically:
   "message": "Entry saved and WhatsApp notification sent."
 }
 ```
+### 📲 WhatsApp Notification Example
+
+✅ New Entry Added in Your Sheet
+
+Name: Rahul Sharma  
+Amount: ₹500  
+Category: Payment Received  
+Date: 05-Feb-2026  
+
